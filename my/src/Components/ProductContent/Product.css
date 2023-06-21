@@ -1,0 +1,47 @@
+
+.col_one_image img{
+width: 100%;
+transition: all linear 0.7s;
+}
+
+.col_one_texts >div {
+    cursor: pointer;
+}
+.bg_green :hover{
+color: green;
+}
+
+.col_one_image{
+    position: relative;
+    width: 100%;
+ 
+   
+}
+
+/* .col_one_image:hover .col_one_image img{
+opacity:0;
+}
+.col_one_image img .hover_img{
+   position: absolute ;
+   left: 0;
+   opacity: 0;
+}
+.col_one_image:hover .hover_img{
+    opacity:1;
+}
+.col_one_image img:hover {
+        opacity: 0;
+    }
+     */
+ .col_one_image:hover .image_one{
+    display: none;
+ }
+ .col_one_image .hover_img{
+    display: none;
+ }
+ .col_one_image{
+    background-color: blue;
+ }
+ .col_one_image:hover .hover_img{
+    display: block;
+ }

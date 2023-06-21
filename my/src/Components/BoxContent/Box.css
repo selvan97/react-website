@@ -1,0 +1,21 @@
+.box{
+    display: flex;
+    align-items: center;
+   
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box_image img{
+    width: 100%;
+}
+.box_text>h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+.box_text>p{
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
